@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titles">
+        <item>Fallen Sons</item>
+        <item>The Bare Edge</item>
+        <item>Servant of Body</item>
+        <item>The Mans Child </item>
+        <item>The World of the Secrets</item>
+        <item>Savior in the Slaves</item>
+        <item>Gift of Beginning</item>
+
+    </string-array>
+
+    <string-array name="decscriptions">
+        <item>Breakfast procuring nay end happiness allowance assurance frankness. Met simplicity nor difficulty unreserved who. Entreaties mr conviction dissimilar me astonished estimating cultivated. On no applauded exquisite my additions. Pronounce add boy estimable nay suspected. You sudden nay elinor thirty esteem temper. Quiet leave shy you gay off asked large style.</item>
+        <item>So if on advanced addition absolute received replying throwing he. Delighted consisted newspaper of unfeeling as neglected so. Tell size come hard mrs and four fond are. Of in commanded earnestly resources it. At quitting in strictly up wandered of relation answered felicity. Side need at in what dear ever upon if. Same down want joy neat ask pain help she. Alone three stuff use law walls fat asked. Near do that he help.</item>
+        <item>On recommend tolerably my belonging or am. Mutual has cannot beauty indeed now sussex merely you. It possible no husbands jennings ye offended packages pleasant he. Remainder recommend engrossed who eat she defective applauded departure joy. Get dissimilar not introduced day her apartments. </item>
+        <item>You vexed shy mirth now noise. Talked him people valley add use her depend letter.</item>
+        <item>Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. </item>
+        <item>An so vulgar to on points wanted. Not rapturous resolving continued household northward gay.</item>
+        <item>He share of first to worse. Weddings and any opinions suitable smallest nay. My he houses or months settle remove ladies appear. </item>
+
+    </string-array>
+
+    <array name="pictures">
+        <item>@drawable/fragment1</item>
+        <item>@drawable/fragment2</item>
+        <item>@drawable/fragment3</item>
+        <item>@drawable/fragment4</item>
+        <item>@drawable/fragment5</item>
+        <item>@drawable/fragment6</item>
+        <item>@drawable/fragment7</item>
+
+    </array>
+
+</resources>
