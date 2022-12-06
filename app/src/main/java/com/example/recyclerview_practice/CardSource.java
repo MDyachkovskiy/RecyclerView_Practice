@@ -4,6 +4,6 @@ public interface CardSource {
 
     CardData getCardData(int position);
 
-        int size();
+    int size();
 
 }

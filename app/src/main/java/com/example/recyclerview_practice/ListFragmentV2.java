@@ -50,7 +50,7 @@ public class ListFragmentV2 extends Fragment {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(linearLayoutManager);
 
-        LIstAdapterV2 listAdapter = new LIstAdapterV2(data);
+        ListAdapterV2 listAdapter = new ListAdapterV2(data);
         recyclerView.setAdapter(listAdapter);
 
         listAdapter.setItemClickListener(new OnItemClickListener() {
