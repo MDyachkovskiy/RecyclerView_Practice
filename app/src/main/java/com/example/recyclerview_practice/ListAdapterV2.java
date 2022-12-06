@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class LIstAdapterV2 extends RecyclerView.Adapter <LIstAdapterV2.ViewHolder> {
+public class ListAdapterV2 extends RecyclerView.Adapter <ListAdapterV2.ViewHolder> {
 
     CardSource dataSource;
     private OnItemClickListener itemClickListener;
@@ -20,7 +20,7 @@ public class LIstAdapterV2 extends RecyclerView.Adapter <LIstAdapterV2.ViewHolde
     }
 
 
-    public LIstAdapterV2(CardSource dataSource){
+    public ListAdapterV2(CardSource dataSource){
         this.dataSource = dataSource;
     }
 
@@ -30,18 +30,18 @@ public class LIstAdapterV2 extends RecyclerView.Adapter <LIstAdapterV2.ViewHolde
     }
 
     @Override
-    public void onBindViewHolder(@NonNull LIstAdapterV2.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ListAdapterV2.ViewHolder holder, int position) {
 
         holder.setData(dataSource.getCardData(position));
     }
 
     @NonNull
     @Override
-    public LIstAdapterV2.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
+    public ListAdapterV2.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
 
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_v2, viewGroup, false);
 
-        return new LIstAdapterV2.ViewHolder(v);
+        return new ListAdapterV2.ViewHolder(v);
     }
 
 
