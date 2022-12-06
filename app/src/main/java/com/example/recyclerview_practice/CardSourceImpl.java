@@ -23,7 +23,7 @@ public class CardSourceImpl implements CardSource {
         String[] description = resources.getStringArray(R.array.decscriptions);
         int[] pictures = getImageArray();
 
-        for (int i = 0; i < dataSource.size(); i++) {
+        for (int i = 0; i < 7; i++) {
             dataSource.add(new CardData(titles[i], description[i], pictures[i], false));
         }
 
